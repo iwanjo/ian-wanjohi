@@ -87,3 +87,55 @@
     margin-top: 5rem!important;
     margin-left: 8rem;
 }
+
+@media only screen and (max-width: 480px){
+    *{
+        box-sizing: border-box;
+    }
+
+    .ianImg{
+        display: none;
+    }
+
+    #myLogo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .nav-link{
+        padding: 7px 0px!important;
+        text-align: center;
+        font-size: 16px;
+    }
+    #togglerBtn{
+        margin-right: 1rem;
+    }
+
+    .title{
+        width: 200%;
+        text-align: center;
+        font-size: 39px;
+        padding-left: 0.5rem;
+    }
+
+    .subtitle{
+        width: 200%;
+        font-size: 20px;
+        text-align: justify;
+        padding-left: 1.7rem;
+        padding-right: 1.2rem;
+        padding-top: 1.4rem;
+        padding-bottom: 2rem;
+    }
+
+    #downloadBtn{
+        margin-left: 4rem;
+    }
+
+    #contactBtn{
+        margin-left: 12rem;
+        margin-top: -5rem;
+    }
+
+    
+}
