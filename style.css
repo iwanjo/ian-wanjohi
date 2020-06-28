@@ -5,3 +5,27 @@
     font-family: 'Cabin', sans-serif;
 
 }
+
+:root{
+    --primary-color: #000428;
+    --secondary-color: #004e92;
+    --side-color: #4CA1AF;
+    --red-ocean: #A43931;
+    --maroon-deep: #8E0E00;
+    --clear-sky: #005C97;
+}
+
+#header{
+    padding-top: 1.2rem;
+}
+
+#myLogo:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.nav-link{
+    padding: 0 1.2rem!important;
+    font-size: 17.5px;
+    color: var(--primary-color)!important;
+}
